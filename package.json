@@ -17,8 +17,8 @@
     "test": "coffee test/"
   },
   "author": {
-    "name": "devjam",
-    "url": "http://github.com/devjam"
+    "name": "kaminaly",
+    "url": "http://github.com/kaminaly"
   },
   "license": "MIT",
   "dependencies": {
