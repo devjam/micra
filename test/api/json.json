@@ -1,4 +1,4 @@
 {
-  "json": "json",
-  "test": 1
+  "type": "json",
+  "path": "/json"
 }
