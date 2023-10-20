@@ -37,11 +37,11 @@ module.exports = (conf)->
 
   do ->
     for route, data of conf.api
-      app.get route, do (data)->
+      app.all route, do (data)->
         (req, res)->
           res.json if util.isFunction data then data req else data
 
-  app.get '*', (req, res)->
+  app.all '*', (req, res)->
     filename = path.join conf.basedir, conf.src, req.path
     # console.log filename
     try
